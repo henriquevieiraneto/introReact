@@ -1,0 +1,8 @@
+.Body{
+    background-color: aquamarine;
+    min-height: calc(100vh - 70px);
+}
+
+.titulo2{
+border: 1px solid #000000;
+}
