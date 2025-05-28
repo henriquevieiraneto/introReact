@@ -1,8 +1,23 @@
 .Body{
     background-color: aquamarine;
     min-height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .titulo2{
 border: 1px solid #000000;
 }
+
+.cont{
+    display: flex;
+    gap: 5px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
